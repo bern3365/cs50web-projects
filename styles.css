@@ -1,0 +1,156 @@
+.font {
+    font-family: Arial;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    font-family: "Century Gothic";
+    font-weight: 550;
+    font-size: 80px;
+    text-align: center;
+    margin: 0;
+}
+
+.small-logo {
+    font-family: "Century Gothic";
+    font-weight: 550;
+    font-size: 20px;
+}
+
+.red {
+    color: red;
+}
+
+.blue {
+    color: rgb(18, 131, 245);
+}
+
+.bblue{
+    color: blue;
+}
+
+.yellow {
+    color: gold;
+}
+
+.green {
+    color: mediumseagreen;
+}
+
+.search-btn {
+    background-color: whitesmoke;
+    margin-top: 30px;
+    margin-left: 8px;
+    margin-right: 8px;
+    width: 130px;
+    height: 40px;
+    border: none;
+    border-radius: 2px;
+    
+    text-align: center;
+    font-size: 14px;
+    color: dimgray;
+}
+
+.search-btn:hover {
+    box-shadow: 0 0 2px gray;
+}
+
+.round {
+    border-radius: 30px;
+    border: 1px lightgray solid;
+    padding: 5px 5px 5px 25px;
+    margin: 10px;
+    width: 500px;
+    height: 43px;
+}
+
+.round:hover {
+    box-shadow: 0 0 4px lightgray;
+}
+
+.logo {
+    font-size: 84px;
+}
+
+.default {
+    font-size: 14px;
+    color:dimgray;
+}
+
+/* Advanced Search */
+.adv-h {
+    color: red;
+    font-size: 20px;
+    margin-left: 50px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+.object {
+    display: grid;
+    row-gap: 15px;
+    margin: 45px;
+    font-size: 13px;
+}
+
+.no-gutters {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.head-text {
+    font-size: 16px;
+}
+
+.instruct {
+    font-size: 14px;
+    font-weight: bold;
+    color: gray;
+}
+
+.small-text {   
+    font-size: 11px;
+    color: dimgray;
+    line-height: normal;
+}
+
+.eg {
+    font-family: OCR A Std, monospace;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.box-width {
+    width: 235px;
+}
+
+.btn-box {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.adv-btn {
+    background-color: rgb(18, 131, 245);
+    padding: 5px;
+    width: 120px;
+    height: 30px;
+    border: none;
+    border-radius: 2px;
+
+    font-size: 12px;
+    font-weight: bold;
+    color: white;
+}
+
+.adv-btn:hover {
+    border: 1px darkblue solid;
+}

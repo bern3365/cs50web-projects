@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+        <title>Advanced Search</title>
+        
+    </head>
+    <body class="font">
+        <nav class="navbar navbar-expand-md navbar-light bg-light border">
+            <div class="navbar-brand small-logo"><span class="blue">G</span><span class="red">o</span><span class="yellow">o</span><span class="blue">g</span><span class="green">l</span><span class="red">e</span></div>
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav ml-auto mt-2">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Google Search</a></li>
+                    <li class="nav-item"><a class="nav-link" href="image.html">Image Search</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <p class="adv-h">Advanced Search</p>
+
+        <hr>
+    
+        
+        <form action="https://www.google.com/search">
+        <div class="object">
+            <div class="row no-gutters">
+                <div class="col-2 head-text">Find pages with...</div>
+                <div class="col-5"></div>
+                <div class="col-4 instruct">To do this in the search box.</div>
+            </div>
+            
+            <div class="row">
+                <div class="col-2">all these words:</div>
+                <div class="col-5">
+                    <input type="text" name="as_q" class="col-12">
+                </div>
+                <div class="col-4 small-text">Type all the important words: <span class="eg">tri-color rat terrier</span></div>
+            </div>
+
+            <div class="row">
+                <div class="col-2 ">this exact word or phrase:</div>
+                <div class="col-5">
+                    <input type="text" name="as_epq" class="col-12">
+                </div>
+                <div class="col-4 small-text">Put exact words in quote: <span class="eg">"rat terrier"</span></div>
+            </div>
+
+            <div class="row">
+                <div class="col-2 ">any of these words:</div>
+                <div class="col-5">
+                    <input type="text" name="as_oq" class="col-12">
+                </div>
+                <div class="col-4 small-text">Type OR between all the words you want: <span class="eg">miniature OR standard</span></div>
+            </div>
+
+            <div class="row">
+                <div class="col-2 ">none of these words:</div>
+                <div class="col-5">
+                    <input type="text" name="as_eq" class="col-12">
+                </div>
+                <div class="col-4 small-text">Put a minus sign just before words that you don't want:<br><span class="eg">-rodent, -"Jack Russell"</span></div>
+            </div>
+
+            <div class="row">
+                <div class="col-2">numbers ranging from:</div>
+                <div class="col-5 box">
+                    <input type="text" name="as_nlo" class="box-width"> to <input type="text" name="as_nhi" class="box-width">
+                </div>
+                <div class="col-4 small-text">Put two full stops between the numbers and add a unit of measurement:<br><span class="eg">10..35 kg, £300..£500, 2010..2011<span></span></div>
+            </div>
+
+            <hr>
+
+            <div class="row">
+                <div class="col-2 head-text">Then narrow your results by...</div>
+                <div class="col-10"></div>
+            </div>
+            
+            <div class="row">
+                <div class="col-2">language:</div>
+                <div class="col-5">
+                    <input type="text" name="lr" class="col-12" placeholder="any language">
+                </div>
+                <div class="col-4 small-text">Find pages in the language that you select.</div>
+            </div>
+            
+            <div class="row">
+                <div class="col-2">region:</div>
+                <div class="col-5">
+                    <input type="text" name="cr" class="col-12" placeholder="any region">
+                </div>
+                <div class="col-4 small-text">Find pages published in a particular region.</div>
+            </div>
+            
+            <div class="row">
+                <div class="col-2">last update:</div>
+                <div class="col-5">
+                    <input type="text" name="as_qdr" class="col-12" placeholder="anytime">
+                </div>
+                <div class="col-4 small-text">Find pages updated within the time that you specify.</div>
+            </div>
+            
+            <div class="row">
+                <div class="col-2">site or domain:</div>
+                <div class="col-5">
+                    <input type="text" name="as_sitesearch" class="col-12">
+                </div>
+                <div class="col-4 small-text">Search one site (like <span class="eg">wikipedia.org</span> ) or limit your results to a domain like<br><span class="eg">.edu</span>, <span class="eg">.org</span> or <span class="eg">.gov</span></div>
+            </div>
+            
+            <div class="row">
+                <div class="col-2">terms appearing:</div>
+                <div class="col-5">
+                    <input type="text" name="as_occt" class="col-12" placeholder="anywhere in the page">
+                </div>
+                <div class="col-4 small-text">Search for terms in the whole page, page title or web address, or links to<br>the page you're looking for.</div>
+            </div>
+            
+            <div class="row">
+                <div class="col-2 bblue">SafeSearch:</div>
+                <div class="col-5">
+                    <input type="text" name="safe" class="col-12" placeholder="Show most relevant results">
+                </div>
+                <div class="col-4 small-text">Tell <span class="bblue">SafeSearch</span> whether to filter sexually explicit content.</div>
+            </div>
+            
+            <div class="row">
+                <div class="col-2">file type:</div>
+                <div class="col-5">
+                    <input type="text" name="as_filetype" class="col-12" placeholder="any format">
+                </div>
+                <div class="col-4 small-text">Find pages in the format that you prefer.</div>
+            </div>
+            
+            <div class="row">
+                <div class="col-2 bblue">usage rights:</div>
+                <div class="col-5">
+                    <input type="text" name="tbs" class="col-12" placeholder="not filtered by licence">
+                </div>
+                <div class="col-4 small-text">Find pages that you are free to use yourself.</div>
+            </div>
+            
+            <div class="row">
+                <div class="col-2"></div>
+                <div class="col-5 btn-box">
+                    <input type="submit" value="Advanced Search" class="adv-btn">
+                </div>
+            </div>
+
+        </div>
+        </form>   
+        
+        <nav class="navbar navbar-expand-md navbar-light bg-light border">
+            <div class="collapse navbar-collapse" id="navbar">
+                <ul class="navbar-nav mr-auto mt-2">
+                    <li class="nav-item"><a class="nav-link" href=#>Help</a></li>
+                    <li class="nav-item"><a class="nav-link" href=#>Privacy</a></li>
+                    <li class="nav-item"><a class="nav-link" href=#>Terms</a></li>
+                </ul>
+            </div>
+        </nav>
+
+
+    </body>
+
+
+
+
+</html>
